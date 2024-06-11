@@ -61,6 +61,7 @@ npm i -D nodemon
 npm run dev
 ```
 Nota 1: El servidor estará corriendo en http://localhost:3000 por defecto
+
 Nota 2: En el archivo "Carreras.postman_collection" se encontrará una colección que permitira probar las distintas funciones de la API
 
 ### Dependencias
