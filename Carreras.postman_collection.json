@@ -45,7 +45,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\" : \"Medicina\",\r\n    \"grado\" : \"grado\",\r\n    \"universidad\" : \"UNPAZ\"\r\n}",
+					"raw": "{\r\n    \"nombre\" : \"Medicina\",\r\n    \"grado\" : \"Grado\",\r\n    \"universidad\" : \"UNPAZ\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
