@@ -1,0 +1,15 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Licenciatura en Gestión de Tecnologias de la Información",
+        "grado": "Grado",
+        "universidad" : "UNPAZ"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Abogacia",
+        "grado": "Grado",
+        "universidad" : "UNPAZ"
+    }
+]
+  

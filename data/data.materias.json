@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "nombre":"Matematicas I",
+        "cuatrimestral": 1,
+        "anio" : 1,
+        "carreraId": 1
+    },
+    {
+        "id":"2",
+        "nombre":"Derecho I",
+        "cuatrimestral": 1,
+        "anio" : 1,
+        "carreraId": 2
+    },
+    {
+        "id":"3",
+        "nombre":"MAtematicas II",
+        "cuatrimestral": 2,
+        "anio" : 2,
+        "carreraId": 1 
+    }
+]
