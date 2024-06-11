@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "8b197716-373c-4a5d-a5c3-6c5cfcd99053",
+		"name": "Carreras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "34516462",
+		"_collection_link": "https://www.postman.com/orbital-module-geoscientist-84020011/workspace/my-workspace/collection/34543263-8b197716-373c-4a5d-a5c3-6c5cfcd99053?action=share&source=collection_link&creator=34516462"
+	},
+	"item": [
+		{
+			"name": "Get all Carreras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/carreras",
+				"description": "Muestra todas las carreras cargadas en la base de datos."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Carrera by ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/carreras/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Carrera",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Medicina\",\r\n    \"grado\" : \"grado\",\r\n    \"universidad\" : \"UNPAZ\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/carreras"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Carrera by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/carreras/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Materias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/materias"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Materia by  Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/materias/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Materia by Carrera ID ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Biologia\",\r\n    \"cuatrimestral\": 1,\r\n    \"anio\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/carreras/3/materia"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Materia by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/materias/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Materias by Carrera ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/carreras/1/materia"
+			},
+			"response": []
+		}
+	]
+}
